@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #2b2b2b;
+  color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.info {
+  margin-bottom: 10px;
+}
+#maze {
+  display: grid;
+  margin: 0 auto;
+  background: #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.cell {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.wall {
+  background-color: #444;
+}
+.path {
+  background-color: #eee;
+}
+.start {
+  background-image: linear-gradient(45deg, #78e08f, #38ada9);
+}
+.goal {
+  background-image: linear-gradient(45deg, #eb2f06, #fa983a);
+}
+.runner {
+  background-color: #60a3bc;
+  border-radius: 50%;
+}
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+}
